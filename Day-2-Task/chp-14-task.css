@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-box,
+.right-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  margin: 10px;
+  box-shadow: 0px 0px 5px rgb(136, 197, 251);
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.right button {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  background-color: aliceblue;
+  box-shadow: 0px 0px 5px rgb(136, 197, 251);
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+  text-shadow: 0px 0px 3px black;
+}
+
+.input-main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-main input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid aliceblue;
+  box-shadow: 0px 0px 2px black;
+}
+
+.input-main input:focus {
+  outline: none;
+  border: 1px solid rgb(136, 197, 251);
+  box-shadow: 0px 0px 5px rgb(136, 197, 251);
+}
+
+.answer-main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.answer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 1px solid rgb(251, 165, 136);
+  box-shadow: 0px 0px 5px rgb(251, 188, 136);
+  margin-right: 20px;
+}
+
+.answer-box .result {
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0px 0px 3px black;
+}
+
+.left-box button {
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: lighter;
+  text-shadow: 0px 0px 3px black;
+  border: 2px solid aliceblue;
+  box-shadow: 0px 0px 5px rgb(136, 197, 251);
+  transition: 0.3s;
+}
+
+.left-box button:hover {
+  border: 1px solid rgb(136, 197, 251);
+  box-shadow: 0px 0px 5px rgb(136, 197, 251);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
